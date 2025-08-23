@@ -1,6 +1,6 @@
 {
   "name": "@hodfords/nestjs-any-guard",
-  "version": "11.0.0",
+  "version": "11.0.1",
   "description": "NestJS AnyGuard is a simple guard that allows you to use any guard/or guard in your NestJS application.",
   "author": "",
   "license": "UNLICENSED",
@@ -60,7 +60,7 @@
     "ts-node": "10.9.2",
     "tsconfig-paths": "4.2.0",
     "typescript": "5.9.2",
-    "@hodfords/nestjs-eslint-config": "11.0.1",
+    "@hodfords/nestjs-eslint-config": "11.0.2",
     "@hodfords/nestjs-prettier-config": "11.0.1"
   },
   "jest": {

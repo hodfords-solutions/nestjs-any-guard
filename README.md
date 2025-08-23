@@ -49,6 +49,9 @@ async example(@Body() body: any) {
 }
 ```
 
+## Limitations 🚧
+You have to register the guards in your module providers, otherwise it will not work.
+
 
 ## License
 
