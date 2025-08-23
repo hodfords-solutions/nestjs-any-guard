@@ -1,6 +1,6 @@
 {
   "name": "@hodfords/nestjs-any-guard",
-  "version": "11.0.1",
+  "version": "11.0.2",
   "description": "NestJS AnyGuard is a simple guard that allows you to use any guard/or guard in your NestJS application.",
   "author": "",
   "license": "UNLICENSED",
