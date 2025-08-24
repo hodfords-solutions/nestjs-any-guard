@@ -17,8 +17,13 @@ export function FirstSuccessGuard(...guards: Type<CanActivate>[]): { new (...arg
 
         async onModuleInit() {
             for (const guard of guards) {
-                const guardInstance = this.moduleRef.get(guard, { strict: false });
-                this.guards.push(guardInstance);
+                try {
+                    const guardInstance = this.moduleRef.get(guard, { strict: false });
+                    this.guards.push(guardInstance);
+                } catch (error) {
+                    const guardInstance = await this.moduleRef.create(guard);
+                    this.guards.push(guardInstance);
+                }
             }
         }
 
