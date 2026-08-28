@@ -1,6 +1,5 @@
-import { CanActivate, Injectable, OnModuleInit, Type } from '@nestjs/common';
+import { CanActivate, ExecutionContext, Injectable, OnModuleInit, Type } from '@nestjs/common';
 import { ModuleRef } from '@nestjs/core';
-import { ExecutionContext } from '@nestjs/common/interfaces/features/execution-context.interface';
 
 /* * ShortCircuitingGuard is a guard that allows the first guard that returns true to pass.
  * If no guard returns true, it will return true by default.

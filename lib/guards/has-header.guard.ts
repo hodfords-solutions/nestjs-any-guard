@@ -1,5 +1,4 @@
-import { CanActivate, Injectable } from '@nestjs/common';
-import { ExecutionContext } from '@nestjs/common/interfaces/features/execution-context.interface';
+import { CanActivate, ExecutionContext, Injectable } from '@nestjs/common';
 
 /**
  * HasHeaderGuard checks if a specific header is present in the request.
