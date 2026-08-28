@@ -1,5 +1,5 @@
 import { Controller, Get, HttpCode, HttpStatus } from '@nestjs/common';
-import { AnyGuard } from '@hodfords/nestjs-any-guard';
+import { AnyGuard } from '../lib/index.js';
 import { Guard1, Guard2 } from './guard.js';
 
 @Controller()
