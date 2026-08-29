@@ -8,6 +8,15 @@
         "metadatas",
         "npmjs"
     ],
-    "flagWords": ["hte"],
-    "ignorePaths": ["node_modules", "*.spec.ts", "*.e2e-spec.ts", "cspell.json", "dist"]
+    "flagWords": [
+        "hte"
+    ],
+    "ignorePaths": [
+        "node_modules",
+        "*.spec.ts",
+        "*.e2e-spec.ts",
+        "cspell.json",
+        "dist",
+        "CHANGELOG.md"
+    ]
 }
